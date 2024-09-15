@@ -1,0 +1,42 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image:url("https://www.officiel-thermalisme.com/wp-content/uploads/2020/03/ODTMAG-SANTE-meteo-MAJ.jpg");
+
+}    
+.weather-tab {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f078;
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    position:relative;
+    text-align: center;
+    padding: 50px;
+    border-radius: 50px;
+    backdrop-filter: blur(10px);
+}
+.class-weather{
+    width: 100%; 
+    max-width: 400px;              
+    padding: 12px 20px;              
+    box-sizing: border-box;      
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding-left: 40px;  
+    align-items: center;
+}
+#weather {
+    margin-top: 200px;
+    justify-content: center; 
+    align-items: center;     
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin-top: 20px;
+}
+#error {
+    color: red;
+}

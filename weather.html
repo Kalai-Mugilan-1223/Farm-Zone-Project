@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body >
+    <nav>
+        <a href="/"><img src="./Assets/FARM ZONE-logo.png" alt="" width="100"></a>
+        <div class="nav-country">
+            <img src="./Assets/location_icon.png" height="20" alt="">
+            <div>
+                <a href=""><p>Deliver to</p>
+                <h1>India</h1>
+                </a>
+            </div>
+        </div>
+        <div class="nav-search">
+            <div class="nav-search-category">
+                <a href=""><p>All</p></a>
+                <img src="./Assets/dropdown_icon.png" height="12" alt="">
+            </div>
+            <input type="text" class="nav-search-input" placeholder="Search Farm Zone">
+            <img src="./Assets/search_icon.png" class="nav-search-icon" alt="">
+        </div>
+        <div class="nav-language">
+            <img src="./Assets/india-flag.png" width="25px" alt="">
+            <a href=""><p>IN</p></a>
+            <img src="./Assets/dropdown_icon.png" width = "8px" alt="">
+        </div>
+        <div class="nav-text">
+            <a href="login.html"><p>Hello, Sign in</p>
+            <h1>Account & Lists <img src="./Assets/dropdown_icon.png" width="8px" alt=""></h1>
+        </a>
+        </div>
+        <div class="nav-text">
+            <a href="">
+            <p>Return</p>
+            <h1>&Orders</h1>
+        </a>
+        </div>
+        <a href="" class="nav-cart">
+            <img src="./Assets/cart_icon.png" width ="35px" alt="">
+            <h4>Cart</h4>
+        </a>
+    </nav>
+<div class="nav-bottom">
+    <div>
+        <img src="./Assets/menu_icon.png" width="25px" alt="">
+       <a href=""> <p>All</p> </a>
+    </div>
+    <a href=""><p>Today's Deal</p></a>
+    <a href=""><p>Customer Service</p></a>
+    <a href=""><p>Registry</p></a>
+    <a href=""><p>Fertilizers</p></a>
+    <a href=""><p>Sell</p></a>
+</div>
+<div class="body">
+<div class="weather-tab">
+    <h1> Weather</h1>
+    
+    <div class="class-weather"><input type="text" id="cityInput" placeholder="Enter city name">
+    </div>
+    <button id="getWeatherBtn">Get Weather</button>
+
+    <div id="weather" style="display: none;">
+        <p><strong>City:</strong> <span id="city"></span></p>
+        <p><strong>Temperature:</strong> <span id="temp"></span></p>
+    </div>
+
+    <p id="error"></p>
+</div>
+</div>
+<script src="weather.js"></script>
+
+</body>
+</html>
